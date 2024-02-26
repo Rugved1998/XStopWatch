@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 
 export default function App() {
@@ -31,6 +30,8 @@ export default function App() {
     setisrunning(false);
     setElapsedTime(0);
   };
+
+  // Render initial state elements
   return (
     <div>
       <h1>Stopwatch</h1>
